@@ -1,4 +1,4 @@
-module github.com/zipstack/pct-provider-airbyte-local
+module github.com/zipstack/pct-provider-airflow
 
 go 1.19
 
@@ -11,4 +11,6 @@ require (
 	github.com/valyala/gorpc v0.0.0-20160519171614-908281bef774 // indirect
 	github.com/zclconf/go-cty v1.13.1 // indirect
 	golang.org/x/text v0.9.0 // indirect
+	golang.org/x/crypto v0.0.0-20210513164829-c07d793c2f9a
+	golang.org/x/sys v0.0.0-20210525143221-35b2ab0089ea // indirect
 )
